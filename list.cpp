@@ -1,3 +1,4 @@
+/*
 #include "list.h"
 
 template <class T> List<T>::List(int max) {
@@ -14,3 +15,4 @@ template <class T> void List<T>::append(T d) {
 template <class T> T List<T>::get(int index) {
 	return data[index];
 }
+*/

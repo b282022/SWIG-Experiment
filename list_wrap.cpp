@@ -3241,7 +3241,7 @@ SWIG_From_float  (float value)
 #ifdef __cplusplus
 extern "C" {
 #endif
-SWIGINTERN PyObject *_wrap_IntPoint_data_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_IntList_data_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   List< int > *arg1 = (List< int > *) 0 ;
   int *arg2 = (int *) 0 ;
@@ -3252,15 +3252,15 @@ SWIGINTERN PyObject *_wrap_IntPoint_data_set(PyObject *SWIGUNUSEDPARM(self), PyO
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   
-  if (!PyArg_ParseTuple(args,(char *)"OO:IntPoint_data_set",&obj0,&obj1)) SWIG_fail;
+  if (!PyArg_ParseTuple(args,(char *)"OO:IntList_data_set",&obj0,&obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ListT_int_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IntPoint_data_set" "', argument " "1"" of type '" "List< int > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IntList_data_set" "', argument " "1"" of type '" "List< int > *""'"); 
   }
   arg1 = reinterpret_cast< List< int > * >(argp1);
   res2 = SWIG_ConvertPtr(obj1, &argp2,SWIGTYPE_p_int, SWIG_POINTER_DISOWN |  0 );
   if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "IntPoint_data_set" "', argument " "2"" of type '" "int *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "IntList_data_set" "', argument " "2"" of type '" "int *""'"); 
   }
   arg2 = reinterpret_cast< int * >(argp2);
   if (arg1) (arg1)->data = arg2;
@@ -3271,7 +3271,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_IntPoint_data_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_IntList_data_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   List< int > *arg1 = (List< int > *) 0 ;
   void *argp1 = 0 ;
@@ -3279,10 +3279,10 @@ SWIGINTERN PyObject *_wrap_IntPoint_data_get(PyObject *SWIGUNUSEDPARM(self), PyO
   PyObject * obj0 = 0 ;
   int *result = 0 ;
   
-  if (!PyArg_ParseTuple(args,(char *)"O:IntPoint_data_get",&obj0)) SWIG_fail;
+  if (!PyArg_ParseTuple(args,(char *)"O:IntList_data_get",&obj0)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ListT_int_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IntPoint_data_get" "', argument " "1"" of type '" "List< int > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IntList_data_get" "', argument " "1"" of type '" "List< int > *""'"); 
   }
   arg1 = reinterpret_cast< List< int > * >(argp1);
   result = (int *) ((arg1)->data);
@@ -3293,7 +3293,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_IntPoint_max_items_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_IntList_max_items_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   List< int > *arg1 = (List< int > *) 0 ;
   int arg2 ;
@@ -3304,15 +3304,15 @@ SWIGINTERN PyObject *_wrap_IntPoint_max_items_set(PyObject *SWIGUNUSEDPARM(self)
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   
-  if (!PyArg_ParseTuple(args,(char *)"OO:IntPoint_max_items_set",&obj0,&obj1)) SWIG_fail;
+  if (!PyArg_ParseTuple(args,(char *)"OO:IntList_max_items_set",&obj0,&obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ListT_int_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IntPoint_max_items_set" "', argument " "1"" of type '" "List< int > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IntList_max_items_set" "', argument " "1"" of type '" "List< int > *""'"); 
   }
   arg1 = reinterpret_cast< List< int > * >(argp1);
   ecode2 = SWIG_AsVal_int(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "IntPoint_max_items_set" "', argument " "2"" of type '" "int""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "IntList_max_items_set" "', argument " "2"" of type '" "int""'");
   } 
   arg2 = static_cast< int >(val2);
   if (arg1) (arg1)->max_items = arg2;
@@ -3323,7 +3323,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_IntPoint_max_items_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_IntList_max_items_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   List< int > *arg1 = (List< int > *) 0 ;
   void *argp1 = 0 ;
@@ -3331,10 +3331,10 @@ SWIGINTERN PyObject *_wrap_IntPoint_max_items_get(PyObject *SWIGUNUSEDPARM(self)
   PyObject * obj0 = 0 ;
   int result;
   
-  if (!PyArg_ParseTuple(args,(char *)"O:IntPoint_max_items_get",&obj0)) SWIG_fail;
+  if (!PyArg_ParseTuple(args,(char *)"O:IntList_max_items_get",&obj0)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ListT_int_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IntPoint_max_items_get" "', argument " "1"" of type '" "List< int > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IntList_max_items_get" "', argument " "1"" of type '" "List< int > *""'"); 
   }
   arg1 = reinterpret_cast< List< int > * >(argp1);
   result = (int) ((arg1)->max_items);
@@ -3345,7 +3345,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_IntPoint_n_items_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_IntList_n_items_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   List< int > *arg1 = (List< int > *) 0 ;
   int arg2 ;
@@ -3356,15 +3356,15 @@ SWIGINTERN PyObject *_wrap_IntPoint_n_items_set(PyObject *SWIGUNUSEDPARM(self), 
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   
-  if (!PyArg_ParseTuple(args,(char *)"OO:IntPoint_n_items_set",&obj0,&obj1)) SWIG_fail;
+  if (!PyArg_ParseTuple(args,(char *)"OO:IntList_n_items_set",&obj0,&obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ListT_int_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IntPoint_n_items_set" "', argument " "1"" of type '" "List< int > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IntList_n_items_set" "', argument " "1"" of type '" "List< int > *""'"); 
   }
   arg1 = reinterpret_cast< List< int > * >(argp1);
   ecode2 = SWIG_AsVal_int(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "IntPoint_n_items_set" "', argument " "2"" of type '" "int""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "IntList_n_items_set" "', argument " "2"" of type '" "int""'");
   } 
   arg2 = static_cast< int >(val2);
   if (arg1) (arg1)->n_items = arg2;
@@ -3375,7 +3375,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_IntPoint_n_items_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_IntList_n_items_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   List< int > *arg1 = (List< int > *) 0 ;
   void *argp1 = 0 ;
@@ -3383,10 +3383,10 @@ SWIGINTERN PyObject *_wrap_IntPoint_n_items_get(PyObject *SWIGUNUSEDPARM(self), 
   PyObject * obj0 = 0 ;
   int result;
   
-  if (!PyArg_ParseTuple(args,(char *)"O:IntPoint_n_items_get",&obj0)) SWIG_fail;
+  if (!PyArg_ParseTuple(args,(char *)"O:IntList_n_items_get",&obj0)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ListT_int_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IntPoint_n_items_get" "', argument " "1"" of type '" "List< int > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IntList_n_items_get" "', argument " "1"" of type '" "List< int > *""'"); 
   }
   arg1 = reinterpret_cast< List< int > * >(argp1);
   result = (int) ((arg1)->n_items);
@@ -3397,7 +3397,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_new_IntPoint(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_new_IntList(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   int arg1 ;
   int val1 ;
@@ -3405,10 +3405,10 @@ SWIGINTERN PyObject *_wrap_new_IntPoint(PyObject *SWIGUNUSEDPARM(self), PyObject
   PyObject * obj0 = 0 ;
   List< int > *result = 0 ;
   
-  if (!PyArg_ParseTuple(args,(char *)"O:new_IntPoint",&obj0)) SWIG_fail;
+  if (!PyArg_ParseTuple(args,(char *)"O:new_IntList",&obj0)) SWIG_fail;
   ecode1 = SWIG_AsVal_int(obj0, &val1);
   if (!SWIG_IsOK(ecode1)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_IntPoint" "', argument " "1"" of type '" "int""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_IntList" "', argument " "1"" of type '" "int""'");
   } 
   arg1 = static_cast< int >(val1);
   result = (List< int > *)new List< int >(arg1);
@@ -3419,7 +3419,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_IntPoint_append(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_IntList_append(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   List< int > *arg1 = (List< int > *) 0 ;
   int arg2 ;
@@ -3430,15 +3430,15 @@ SWIGINTERN PyObject *_wrap_IntPoint_append(PyObject *SWIGUNUSEDPARM(self), PyObj
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   
-  if (!PyArg_ParseTuple(args,(char *)"OO:IntPoint_append",&obj0,&obj1)) SWIG_fail;
+  if (!PyArg_ParseTuple(args,(char *)"OO:IntList_append",&obj0,&obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ListT_int_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IntPoint_append" "', argument " "1"" of type '" "List< int > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IntList_append" "', argument " "1"" of type '" "List< int > *""'"); 
   }
   arg1 = reinterpret_cast< List< int > * >(argp1);
   ecode2 = SWIG_AsVal_int(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "IntPoint_append" "', argument " "2"" of type '" "int""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "IntList_append" "', argument " "2"" of type '" "int""'");
   } 
   arg2 = static_cast< int >(val2);
   (arg1)->append(arg2);
@@ -3449,7 +3449,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_IntPoint_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_IntList_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   List< int > *arg1 = (List< int > *) 0 ;
   int arg2 ;
@@ -3461,15 +3461,15 @@ SWIGINTERN PyObject *_wrap_IntPoint_get(PyObject *SWIGUNUSEDPARM(self), PyObject
   PyObject * obj1 = 0 ;
   int result;
   
-  if (!PyArg_ParseTuple(args,(char *)"OO:IntPoint_get",&obj0,&obj1)) SWIG_fail;
+  if (!PyArg_ParseTuple(args,(char *)"OO:IntList_get",&obj0,&obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ListT_int_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IntPoint_get" "', argument " "1"" of type '" "List< int > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IntList_get" "', argument " "1"" of type '" "List< int > *""'"); 
   }
   arg1 = reinterpret_cast< List< int > * >(argp1);
   ecode2 = SWIG_AsVal_int(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "IntPoint_get" "', argument " "2"" of type '" "int""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "IntList_get" "', argument " "2"" of type '" "int""'");
   } 
   arg2 = static_cast< int >(val2);
   result = (int)(arg1)->get(arg2);
@@ -3480,17 +3480,17 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_delete_IntPoint(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_delete_IntList(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   List< int > *arg1 = (List< int > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject * obj0 = 0 ;
   
-  if (!PyArg_ParseTuple(args,(char *)"O:delete_IntPoint",&obj0)) SWIG_fail;
+  if (!PyArg_ParseTuple(args,(char *)"O:delete_IntList",&obj0)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ListT_int_t, SWIG_POINTER_DISOWN |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_IntPoint" "', argument " "1"" of type '" "List< int > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_IntList" "', argument " "1"" of type '" "List< int > *""'"); 
   }
   arg1 = reinterpret_cast< List< int > * >(argp1);
   delete arg1;
@@ -3501,14 +3501,14 @@ fail:
 }
 
 
-SWIGINTERN PyObject *IntPoint_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *IntList_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *obj;
   if (!PyArg_ParseTuple(args,(char*)"O:swigregister", &obj)) return NULL;
   SWIG_TypeNewClientData(SWIGTYPE_p_ListT_int_t, SWIG_NewClientData(obj));
   return SWIG_Py_Void();
 }
 
-SWIGINTERN PyObject *_wrap_FloatPoint_data_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_FloatList_data_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   List< float > *arg1 = (List< float > *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -3519,15 +3519,15 @@ SWIGINTERN PyObject *_wrap_FloatPoint_data_set(PyObject *SWIGUNUSEDPARM(self), P
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   
-  if (!PyArg_ParseTuple(args,(char *)"OO:FloatPoint_data_set",&obj0,&obj1)) SWIG_fail;
+  if (!PyArg_ParseTuple(args,(char *)"OO:FloatList_data_set",&obj0,&obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ListT_float_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FloatPoint_data_set" "', argument " "1"" of type '" "List< float > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FloatList_data_set" "', argument " "1"" of type '" "List< float > *""'"); 
   }
   arg1 = reinterpret_cast< List< float > * >(argp1);
   res2 = SWIG_ConvertPtr(obj1, &argp2,SWIGTYPE_p_float, SWIG_POINTER_DISOWN |  0 );
   if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "FloatPoint_data_set" "', argument " "2"" of type '" "float *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "FloatList_data_set" "', argument " "2"" of type '" "float *""'"); 
   }
   arg2 = reinterpret_cast< float * >(argp2);
   if (arg1) (arg1)->data = arg2;
@@ -3538,7 +3538,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_FloatPoint_data_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_FloatList_data_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   List< float > *arg1 = (List< float > *) 0 ;
   void *argp1 = 0 ;
@@ -3546,10 +3546,10 @@ SWIGINTERN PyObject *_wrap_FloatPoint_data_get(PyObject *SWIGUNUSEDPARM(self), P
   PyObject * obj0 = 0 ;
   float *result = 0 ;
   
-  if (!PyArg_ParseTuple(args,(char *)"O:FloatPoint_data_get",&obj0)) SWIG_fail;
+  if (!PyArg_ParseTuple(args,(char *)"O:FloatList_data_get",&obj0)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ListT_float_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FloatPoint_data_get" "', argument " "1"" of type '" "List< float > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FloatList_data_get" "', argument " "1"" of type '" "List< float > *""'"); 
   }
   arg1 = reinterpret_cast< List< float > * >(argp1);
   result = (float *) ((arg1)->data);
@@ -3560,7 +3560,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_FloatPoint_max_items_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_FloatList_max_items_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   List< float > *arg1 = (List< float > *) 0 ;
   int arg2 ;
@@ -3571,15 +3571,15 @@ SWIGINTERN PyObject *_wrap_FloatPoint_max_items_set(PyObject *SWIGUNUSEDPARM(sel
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   
-  if (!PyArg_ParseTuple(args,(char *)"OO:FloatPoint_max_items_set",&obj0,&obj1)) SWIG_fail;
+  if (!PyArg_ParseTuple(args,(char *)"OO:FloatList_max_items_set",&obj0,&obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ListT_float_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FloatPoint_max_items_set" "', argument " "1"" of type '" "List< float > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FloatList_max_items_set" "', argument " "1"" of type '" "List< float > *""'"); 
   }
   arg1 = reinterpret_cast< List< float > * >(argp1);
   ecode2 = SWIG_AsVal_int(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "FloatPoint_max_items_set" "', argument " "2"" of type '" "int""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "FloatList_max_items_set" "', argument " "2"" of type '" "int""'");
   } 
   arg2 = static_cast< int >(val2);
   if (arg1) (arg1)->max_items = arg2;
@@ -3590,7 +3590,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_FloatPoint_max_items_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_FloatList_max_items_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   List< float > *arg1 = (List< float > *) 0 ;
   void *argp1 = 0 ;
@@ -3598,10 +3598,10 @@ SWIGINTERN PyObject *_wrap_FloatPoint_max_items_get(PyObject *SWIGUNUSEDPARM(sel
   PyObject * obj0 = 0 ;
   int result;
   
-  if (!PyArg_ParseTuple(args,(char *)"O:FloatPoint_max_items_get",&obj0)) SWIG_fail;
+  if (!PyArg_ParseTuple(args,(char *)"O:FloatList_max_items_get",&obj0)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ListT_float_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FloatPoint_max_items_get" "', argument " "1"" of type '" "List< float > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FloatList_max_items_get" "', argument " "1"" of type '" "List< float > *""'"); 
   }
   arg1 = reinterpret_cast< List< float > * >(argp1);
   result = (int) ((arg1)->max_items);
@@ -3612,7 +3612,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_FloatPoint_n_items_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_FloatList_n_items_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   List< float > *arg1 = (List< float > *) 0 ;
   int arg2 ;
@@ -3623,15 +3623,15 @@ SWIGINTERN PyObject *_wrap_FloatPoint_n_items_set(PyObject *SWIGUNUSEDPARM(self)
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   
-  if (!PyArg_ParseTuple(args,(char *)"OO:FloatPoint_n_items_set",&obj0,&obj1)) SWIG_fail;
+  if (!PyArg_ParseTuple(args,(char *)"OO:FloatList_n_items_set",&obj0,&obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ListT_float_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FloatPoint_n_items_set" "', argument " "1"" of type '" "List< float > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FloatList_n_items_set" "', argument " "1"" of type '" "List< float > *""'"); 
   }
   arg1 = reinterpret_cast< List< float > * >(argp1);
   ecode2 = SWIG_AsVal_int(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "FloatPoint_n_items_set" "', argument " "2"" of type '" "int""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "FloatList_n_items_set" "', argument " "2"" of type '" "int""'");
   } 
   arg2 = static_cast< int >(val2);
   if (arg1) (arg1)->n_items = arg2;
@@ -3642,7 +3642,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_FloatPoint_n_items_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_FloatList_n_items_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   List< float > *arg1 = (List< float > *) 0 ;
   void *argp1 = 0 ;
@@ -3650,10 +3650,10 @@ SWIGINTERN PyObject *_wrap_FloatPoint_n_items_get(PyObject *SWIGUNUSEDPARM(self)
   PyObject * obj0 = 0 ;
   int result;
   
-  if (!PyArg_ParseTuple(args,(char *)"O:FloatPoint_n_items_get",&obj0)) SWIG_fail;
+  if (!PyArg_ParseTuple(args,(char *)"O:FloatList_n_items_get",&obj0)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ListT_float_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FloatPoint_n_items_get" "', argument " "1"" of type '" "List< float > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FloatList_n_items_get" "', argument " "1"" of type '" "List< float > *""'"); 
   }
   arg1 = reinterpret_cast< List< float > * >(argp1);
   result = (int) ((arg1)->n_items);
@@ -3664,7 +3664,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_new_FloatPoint(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_new_FloatList(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   int arg1 ;
   int val1 ;
@@ -3672,10 +3672,10 @@ SWIGINTERN PyObject *_wrap_new_FloatPoint(PyObject *SWIGUNUSEDPARM(self), PyObje
   PyObject * obj0 = 0 ;
   List< float > *result = 0 ;
   
-  if (!PyArg_ParseTuple(args,(char *)"O:new_FloatPoint",&obj0)) SWIG_fail;
+  if (!PyArg_ParseTuple(args,(char *)"O:new_FloatList",&obj0)) SWIG_fail;
   ecode1 = SWIG_AsVal_int(obj0, &val1);
   if (!SWIG_IsOK(ecode1)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_FloatPoint" "', argument " "1"" of type '" "int""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_FloatList" "', argument " "1"" of type '" "int""'");
   } 
   arg1 = static_cast< int >(val1);
   result = (List< float > *)new List< float >(arg1);
@@ -3686,7 +3686,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_FloatPoint_append(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_FloatList_append(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   List< float > *arg1 = (List< float > *) 0 ;
   float arg2 ;
@@ -3697,15 +3697,15 @@ SWIGINTERN PyObject *_wrap_FloatPoint_append(PyObject *SWIGUNUSEDPARM(self), PyO
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   
-  if (!PyArg_ParseTuple(args,(char *)"OO:FloatPoint_append",&obj0,&obj1)) SWIG_fail;
+  if (!PyArg_ParseTuple(args,(char *)"OO:FloatList_append",&obj0,&obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ListT_float_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FloatPoint_append" "', argument " "1"" of type '" "List< float > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FloatList_append" "', argument " "1"" of type '" "List< float > *""'"); 
   }
   arg1 = reinterpret_cast< List< float > * >(argp1);
   ecode2 = SWIG_AsVal_float(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "FloatPoint_append" "', argument " "2"" of type '" "float""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "FloatList_append" "', argument " "2"" of type '" "float""'");
   } 
   arg2 = static_cast< float >(val2);
   (arg1)->append(arg2);
@@ -3716,7 +3716,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_FloatPoint_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_FloatList_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   List< float > *arg1 = (List< float > *) 0 ;
   int arg2 ;
@@ -3728,15 +3728,15 @@ SWIGINTERN PyObject *_wrap_FloatPoint_get(PyObject *SWIGUNUSEDPARM(self), PyObje
   PyObject * obj1 = 0 ;
   float result;
   
-  if (!PyArg_ParseTuple(args,(char *)"OO:FloatPoint_get",&obj0,&obj1)) SWIG_fail;
+  if (!PyArg_ParseTuple(args,(char *)"OO:FloatList_get",&obj0,&obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ListT_float_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FloatPoint_get" "', argument " "1"" of type '" "List< float > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FloatList_get" "', argument " "1"" of type '" "List< float > *""'"); 
   }
   arg1 = reinterpret_cast< List< float > * >(argp1);
   ecode2 = SWIG_AsVal_int(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "FloatPoint_get" "', argument " "2"" of type '" "int""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "FloatList_get" "', argument " "2"" of type '" "int""'");
   } 
   arg2 = static_cast< int >(val2);
   result = (float)(arg1)->get(arg2);
@@ -3747,17 +3747,17 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_delete_FloatPoint(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_delete_FloatList(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   List< float > *arg1 = (List< float > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject * obj0 = 0 ;
   
-  if (!PyArg_ParseTuple(args,(char *)"O:delete_FloatPoint",&obj0)) SWIG_fail;
+  if (!PyArg_ParseTuple(args,(char *)"O:delete_FloatList",&obj0)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ListT_float_t, SWIG_POINTER_DISOWN |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_FloatPoint" "', argument " "1"" of type '" "List< float > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_FloatList" "', argument " "1"" of type '" "List< float > *""'"); 
   }
   arg1 = reinterpret_cast< List< float > * >(argp1);
   delete arg1;
@@ -3768,7 +3768,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *FloatPoint_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *FloatList_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *obj;
   if (!PyArg_ParseTuple(args,(char*)"O:swigregister", &obj)) return NULL;
   SWIG_TypeNewClientData(SWIGTYPE_p_ListT_float_t, SWIG_NewClientData(obj));
@@ -3777,28 +3777,28 @@ SWIGINTERN PyObject *FloatPoint_swigregister(PyObject *SWIGUNUSEDPARM(self), PyO
 
 static PyMethodDef SwigMethods[] = {
 	 { (char *)"SWIG_PyInstanceMethod_New", (PyCFunction)SWIG_PyInstanceMethod_New, METH_O, NULL},
-	 { (char *)"IntPoint_data_set", _wrap_IntPoint_data_set, METH_VARARGS, NULL},
-	 { (char *)"IntPoint_data_get", _wrap_IntPoint_data_get, METH_VARARGS, NULL},
-	 { (char *)"IntPoint_max_items_set", _wrap_IntPoint_max_items_set, METH_VARARGS, NULL},
-	 { (char *)"IntPoint_max_items_get", _wrap_IntPoint_max_items_get, METH_VARARGS, NULL},
-	 { (char *)"IntPoint_n_items_set", _wrap_IntPoint_n_items_set, METH_VARARGS, NULL},
-	 { (char *)"IntPoint_n_items_get", _wrap_IntPoint_n_items_get, METH_VARARGS, NULL},
-	 { (char *)"new_IntPoint", _wrap_new_IntPoint, METH_VARARGS, NULL},
-	 { (char *)"IntPoint_append", _wrap_IntPoint_append, METH_VARARGS, NULL},
-	 { (char *)"IntPoint_get", _wrap_IntPoint_get, METH_VARARGS, NULL},
-	 { (char *)"delete_IntPoint", _wrap_delete_IntPoint, METH_VARARGS, NULL},
-	 { (char *)"IntPoint_swigregister", IntPoint_swigregister, METH_VARARGS, NULL},
-	 { (char *)"FloatPoint_data_set", _wrap_FloatPoint_data_set, METH_VARARGS, NULL},
-	 { (char *)"FloatPoint_data_get", _wrap_FloatPoint_data_get, METH_VARARGS, NULL},
-	 { (char *)"FloatPoint_max_items_set", _wrap_FloatPoint_max_items_set, METH_VARARGS, NULL},
-	 { (char *)"FloatPoint_max_items_get", _wrap_FloatPoint_max_items_get, METH_VARARGS, NULL},
-	 { (char *)"FloatPoint_n_items_set", _wrap_FloatPoint_n_items_set, METH_VARARGS, NULL},
-	 { (char *)"FloatPoint_n_items_get", _wrap_FloatPoint_n_items_get, METH_VARARGS, NULL},
-	 { (char *)"new_FloatPoint", _wrap_new_FloatPoint, METH_VARARGS, NULL},
-	 { (char *)"FloatPoint_append", _wrap_FloatPoint_append, METH_VARARGS, NULL},
-	 { (char *)"FloatPoint_get", _wrap_FloatPoint_get, METH_VARARGS, NULL},
-	 { (char *)"delete_FloatPoint", _wrap_delete_FloatPoint, METH_VARARGS, NULL},
-	 { (char *)"FloatPoint_swigregister", FloatPoint_swigregister, METH_VARARGS, NULL},
+	 { (char *)"IntList_data_set", _wrap_IntList_data_set, METH_VARARGS, NULL},
+	 { (char *)"IntList_data_get", _wrap_IntList_data_get, METH_VARARGS, NULL},
+	 { (char *)"IntList_max_items_set", _wrap_IntList_max_items_set, METH_VARARGS, NULL},
+	 { (char *)"IntList_max_items_get", _wrap_IntList_max_items_get, METH_VARARGS, NULL},
+	 { (char *)"IntList_n_items_set", _wrap_IntList_n_items_set, METH_VARARGS, NULL},
+	 { (char *)"IntList_n_items_get", _wrap_IntList_n_items_get, METH_VARARGS, NULL},
+	 { (char *)"new_IntList", _wrap_new_IntList, METH_VARARGS, NULL},
+	 { (char *)"IntList_append", _wrap_IntList_append, METH_VARARGS, NULL},
+	 { (char *)"IntList_get", _wrap_IntList_get, METH_VARARGS, NULL},
+	 { (char *)"delete_IntList", _wrap_delete_IntList, METH_VARARGS, NULL},
+	 { (char *)"IntList_swigregister", IntList_swigregister, METH_VARARGS, NULL},
+	 { (char *)"FloatList_data_set", _wrap_FloatList_data_set, METH_VARARGS, NULL},
+	 { (char *)"FloatList_data_get", _wrap_FloatList_data_get, METH_VARARGS, NULL},
+	 { (char *)"FloatList_max_items_set", _wrap_FloatList_max_items_set, METH_VARARGS, NULL},
+	 { (char *)"FloatList_max_items_get", _wrap_FloatList_max_items_get, METH_VARARGS, NULL},
+	 { (char *)"FloatList_n_items_set", _wrap_FloatList_n_items_set, METH_VARARGS, NULL},
+	 { (char *)"FloatList_n_items_get", _wrap_FloatList_n_items_get, METH_VARARGS, NULL},
+	 { (char *)"new_FloatList", _wrap_new_FloatList, METH_VARARGS, NULL},
+	 { (char *)"FloatList_append", _wrap_FloatList_append, METH_VARARGS, NULL},
+	 { (char *)"FloatList_get", _wrap_FloatList_get, METH_VARARGS, NULL},
+	 { (char *)"delete_FloatList", _wrap_delete_FloatList, METH_VARARGS, NULL},
+	 { (char *)"FloatList_swigregister", FloatList_swigregister, METH_VARARGS, NULL},
 	 { NULL, NULL, 0, NULL }
 };
 

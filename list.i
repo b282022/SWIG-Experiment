@@ -31,5 +31,5 @@ template <class T> T List<T>::get(int index) {
 }
 
 
-%template(IntPoint) List <int>;
-%template(FloatPoint) List <float>;
+%template(IntList) List <int>;
+%template(FloatList) List <float>;
